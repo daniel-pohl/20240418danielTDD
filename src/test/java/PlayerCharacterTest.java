@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class PlayerCharacterTest {
 
     @Test
-    public void getXReturn0(){
+    public void getXWhenReturn0(){
         //GIVEN
 
         //WHEN
