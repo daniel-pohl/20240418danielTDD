@@ -17,7 +17,6 @@ public class PlayerCharacterTest {
     }
     @Test
     public void moveWhenStringWThenReturnY1(){
-        char w = 'W';
         int actual = PlayerCharacter.move('W');
         int expected = 1;
         assertEquals(expected, actual);
